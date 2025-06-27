@@ -2,127 +2,386 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
+    <meta name="description"
+      content="Thinkrolls 1 is a logic puzzle game that helps kids develop problem-solving skills while having fun! Roll, slide, and think your way through fun-filled physics puzzles.">
+    <meta name="keywords"
+      content="Thinkrolls, puzzle game for kids, logic games, physics puzzles, educational app, fun learning, Avokiddo, offline kids game, safe app for children">
+    <meta name="author" content="Avokiddo">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://blogdizo.site">
+    <link rel="icon" type="image/svg+xml" href="/bubble-game/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-CFrPtiMb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Coiny&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Bubble Game</title>
+    <script type="module" crossorigin src="/bubble-game/assets/vendor-iR42Hl2z.js"></script>
+    <script type="module" crossorigin src="/bubble-game/assets/main-8u_Y1udJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/bubble-game/assets/vendor-DHBATib1.css">
+    <link rel="stylesheet" crossorigin href="/bubble-game/assets/main-DxY9xeHH.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/test/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+   
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/test/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
+      <!-- Home -->
+ <section class="home-section">
+    <div class="container">
+        <h1 class="visually-hidden">Bubble Game</h1>
+        <picture>
+            <source srcset="/bubble-game/assets/logo-desk-B2puolxI.png 1x, /bubble-game/assets/logo-desk@2x-BldlaFY3.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/logo-mob-nfdULMEE.png 1x, /bubble-game/assets/logo-mob@2x-nIVG5tuQ.png 2x" media="(max-width: 1438px)" />
+            <img class="logo-img" src="/bubble-game/assets/logo-mob-nfdULMEE.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+        <p class="home-text">Pop Numbers. Train Your Brain.</p>
+        <p class="home-text-two">Merge bubbles, match numbers, and enjoy endless puzzle fun!</p>
+        <a class="home-link" href="#Gallery">
+        <picture>
+            <source srcset="/bubble-game/assets/google-btn-desk-PiPHVSAw.png 1x, /bubble-game/assets/google-btn-desk@2x-BALCh1cC.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/google-btn-mob-CGOfFKDM.png 1x, /bubble-game/assets/google-btn-mob@2x-DIydb2KA.png 2x" media="(max-width: 1438px)" />
+            <img class="home-btn-img" src="/bubble-game/assets/google-btn-mob-CGOfFKDM.png" alt="Google Play" loading="lazy" />
+        </picture>
+    </a>
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
+ </section>
+<!-- about -->
+<article class="about-section">
+    <div class="container about-container">
+        <h2 class="visually-hidden">Connect Number - Bubble Game </h2> 
+        <picture>
+            <source srcset="/bubble-game/assets/desk-D933IQWB.png 1x, /bubble-game/assets/desk@2x-C-SIzml7.png 2x" media="(min-width: 1439px)" />
+            <source srcset="data:image/png;base64,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 1x, /bubble-game/assets/mob@2x-D4IgElMA.png 2x" media="(max-width: 1438px)" />
+            <img class="about-img" src="data:image/png;base64,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" alt="Connect Number - Bubble Game" loading="lazy" />
+        </picture>
+        <p class="about-desk">is an addictive</p>
+        <p class="about-text"><span class="about-span">is an addictive</span> puzzle game that challenges you to merge and connect numbered bubbles</p>
+        <p class="about-text-two">It’s relaxing, brain-boosting, and perfect for quick fun or <br class="desk"> long sessions</p>
+    </div>
 </article>
+<!-- How to Play -->
+<section class="play-section">
+    <div class="container">
+        <h2 class="play-title">How to Play</h2>
+        <div class="play-wrapper">
+            <div class="play-item-container">
+                <p class="play-number">1</p>
+                <p class="play-item-title">Tap a Bubble</p>
+                <p class="play-item-text">Choose a numbered bubble</p>
+            </div>
+            <div class="play-item-container play-item-container-two">
+                <p class="play-number">2</p>
+                <p class="play-item-title">Merge Wisely</p>
+                <p class="play-item-text">Combine same numbers to reach higher scores</p>
+            </div>
+            <div class="play-item-container play-item-container-three">
+                <p class="play-number">3</p>
+                <p class="play-item-title">Plan Ahead</p>
+                <p class="play-item-text">Use logic to keep the board from filling</p>
+            </div>
+            <div class="play-item-container play-item-container-four">
+                <p class="play-number">4</p>
+                <p class="play-item-title">Score Big</p>
+                <p class="play-item-text">Aim for combos and keep the chain going</p>
+            </div>
+            <span style="display: none;">Generated:2025-06-27, Hash:25d5cdf</span>
+        </div>
+    </div>
+</section>
+<!-- Gallery -->
+ <section class="gallery-section">
+    <div class="container">
+        <h2 class="gallery-title">Gallery</h2>
+        <div class="swiper gallery-swiper">
+            <div class="swiper-wrapper gallery-swiper-wrapper">
+                <div class="swiper-slide gallery-swiper-slide">
+                    <picture>
+                        <source srcset="/bubble-game/assets/one-desk-i9UG2-2X.png 1x, /bubble-game/assets/one-desk@2x-Dm76gkaR.png 2x" media="(min-width: 1439px)" />
+                        <source srcset="/bubble-game/assets/one-mob-CYv02jvI.png 1x, /bubble-game/assets/one-mob@2x-CsJwl4te.png 2x" media="(max-width: 1438px)" />
+                        <img class="gallery-img" src="/bubble-game/assets/one-mob-CYv02jvI.png" alt="Bubble Game" loading="lazy" />
+                  </picture>
+                </div>
+                <div class="swiper-slide gallery-swiper-slide">
+                    <picture>
+                        <source srcset="/bubble-game/assets/two-desk-BwkPQPd7.png 1x, /bubble-game/assets/two-desk@2x-CLXRVaFx.png 2x" media="(min-width: 1439px)" />
+                        <source srcset="/bubble-game/assets/two-mob-vAX07bVm.png 1x, /bubble-game/assets/two-mob@2x-nErUsywE.png 2x" media="(max-width: 1438px)" />
+                        <img class="gallery-img" src="/bubble-game/assets/two-mob-vAX07bVm.png" alt="Bubble Game" loading="lazy" />
+                    </picture>
+                </div>
+<div class="swiper-slide gallery-swiper-slide">
+ <picture>
+ <source srcset="/bubble-game/assets/three-desk-9mTuaWRV.png 1x, /bubble-game/assets/three-desk@2x-DF62T_En.png 2x" media="(min-width: 1439px)" />
+ <source srcset="/bubble-game/assets/three-mob-DMhyVkai.png 1x, /bubble-game/assets/three-mob@2x-Bp6ZFHaF.png 2x" media="(max-width: 1438px)" />
+<img class="gallery-img" src="/bubble-game/assets/three-mob-DMhyVkai.png" alt="Bubble Game" loading="lazy" />
+     </picture>
+</div>
+<div class="swiper-slide gallery-swiper-slide">
+    <picture>
+        <source srcset="/bubble-game/assets/four-desk-DASx_ozt.png 1x, /bubble-game/assets/four-desk@2x-sIuhQCtP.png 2x" media="(min-width: 1439px)" />
+        <source srcset="/bubble-game/assets/four-mob-BcHez2uG.png 1x, /bubble-game/assets/four-mob@2x-Ccms3Bdc.png 2x" media="(max-width: 1438px)" />
+        <img class="gallery-img" src="/bubble-game/assets/four-mob-BcHez2uG.png" alt="Bubble Game" loading="lazy" />
+    </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/five-desk-CUS6KzeC.png 1x, /bubble-game/assets/five-desk@2x-B1Wchm3Q.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/five-mob-CPOyUR9G.png 1x, /bubble-game/assets/five-mob@2x-B29xrMzl.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/five-mob-CPOyUR9G.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+ </div>
+<div class="swiper-slide gallery-swiper-slide">
+    <picture>
+        <source srcset="/bubble-game/assets/six-desk-DMLkOm-s.png 1x, /bubble-game/assets/six-desk@2x-B3M5cixj.png 2x" media="(min-width: 1439px)" />
+        <source srcset="/bubble-game/assets/six-mob-Bl1U9MiR.png 1x, /bubble-game/assets/six-mob@2x-B10OM3sl.png 2x" media="(max-width: 1438px)" />
+        <img class="gallery-img" src="/bubble-game/assets/six-mob-Bl1U9MiR.png" alt="Bubble Game" loading="lazy" />
+    </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/seven-desk-DhYXCppu.png 1x, /bubble-game/assets/seven-desk@2x-BQMMJKjJ.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/seven-mob-CCr1MhQL.png 1x, /bubble-game/assets/seven-mob@2x-D5P4hkia.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/seven-mob-CCr1MhQL.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+ </div>
+<div class="swiper-slide gallery-swiper-slide">
+    <picture>
+        <source srcset="/bubble-game/assets/eight-desk-B9aBCFfM.png 1x, /bubble-game/assets/eight-desk@2x-D2irONLn.png 2x" media="(min-width: 1439px)" />
+        <source srcset="/bubble-game/assets/eight-mob-D7buHkym.png 1x, /bubble-game/assets/eight-mob@2x-ubShW4Z8.png 2x" media="(max-width: 1438px)" />
+        <img class="gallery-img" src="/bubble-game/assets/eight-mob-D7buHkym.png" alt="Bubble Game" loading="lazy" />
+    </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/one-desk-i9UG2-2X.png 1x, /bubble-game/assets/one-desk@2x-Dm76gkaR.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/one-mob-CYv02jvI.png 1x, /bubble-game/assets/one-mob@2x-CsJwl4te.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/one-mob-CYv02jvI.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/two-desk-BwkPQPd7.png 1x, /bubble-game/assets/two-desk@2x-CLXRVaFx.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/two-mob-vAX07bVm.png 1x, /bubble-game/assets/two-mob@2x-nErUsywE.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/two-mob-vAX07bVm.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/three-desk-9mTuaWRV.png 1x, /bubble-game/assets/three-desk@2x-DF62T_En.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/three-mob-DMhyVkai.png 1x, /bubble-game/assets/three-mob@2x-Bp6ZFHaF.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/three-mob-DMhyVkai.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/four-desk-DASx_ozt.png 1x, /bubble-game/assets/four-desk@2x-sIuhQCtP.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/four-mob-BcHez2uG.png 1x, /bubble-game/assets/four-mob@2x-Ccms3Bdc.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/four-mob-BcHez2uG.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/five-desk-CUS6KzeC.png 1x, /bubble-game/assets/five-desk@2x-B1Wchm3Q.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/five-mob-CPOyUR9G.png 1x, /bubble-game/assets/five-mob@2x-B29xrMzl.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/five-mob-CPOyUR9G.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/six-desk-DMLkOm-s.png 1x, /bubble-game/assets/six-desk@2x-B3M5cixj.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/six-mob-Bl1U9MiR.png 1x, /bubble-game/assets/six-mob@2x-B10OM3sl.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/six-mob-Bl1U9MiR.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/seven-desk-DhYXCppu.png 1x, /bubble-game/assets/seven-desk@2x-BQMMJKjJ.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/seven-mob-CCr1MhQL.png 1x, /bubble-game/assets/seven-mob@2x-D5P4hkia.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/seven-mob-CCr1MhQL.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+    <div class="swiper-slide gallery-swiper-slide">
+        <picture>
+            <source srcset="/bubble-game/assets/eight-desk-B9aBCFfM.png 1x, /bubble-game/assets/eight-desk@2x-D2irONLn.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bubble-game/assets/eight-mob-D7buHkym.png 1x, /bubble-game/assets/eight-mob@2x-ubShW4Z8.png 2x" media="(max-width: 1438px)" />
+            <img class="gallery-img" src="/bubble-game/assets/eight-mob-D7buHkym.png" alt="Bubble Game" loading="lazy" />
+        </picture>
+    </div>
+            </div>
+        </div>
+    
 
+    </div>
+
+ </section>
+ <!-- User Reviews -->
+<section class="reviews-section">
+    <div class="container">
+        <h2 class="reviews-title">User Reviews</h2>
+        <ul class="reviews-list">
+            <li class="reviews-item">
+                <p class="review-text">“Addictive and fun! I love how easy it is to play but still makes you think.”</p>
+                <p class="rewviews-author">Lena T.</p>
+                <img src="data:image/png;base64,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" alt="Five stars" loading="lazy" width="234" height="34">
+            </li>
+            <li class="reviews-item">
+                <p class="review-text">“Great game to pass time. Very calming and satisfying.”</p>
+                <p class="rewviews-author">Oscar D.</p>
+                <img src="data:image/png;base64,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" alt="Five stars" loading="lazy" width="234" height="34">
+            </li>
+            <li class="reviews-item">
+                <p class="review-text">“Smooth mechanics and colorful design. Perfect for puzzle lovers.”</p>
+                <p class="rewviews-author">Mei W.</p>
+                <img class="reviews-img" src="data:image/png;base64,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" alt="Five stars" loading="lazy" width="234" height="34">
+            </li>
+            <li class="reviews-item">
+                <p class="review-text">“I play this every evening. Great stress relief.”</p>
+                <p class="rewviews-author">Tomas G.</p>
+                <img src="data:image/png;base64,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" alt="Five stars" loading="lazy" width="234" height="34">
+            </li>
+            <li class="reviews-item">
+                <p class="review-text">“Combining numbers and popping bubbles is a genius idea!”</p>
+                <p class="rewviews-author">Fiona C.</p>
+                <img class="reviews-img" src="data:image/png;base64,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" alt="Five stars" loading="lazy" width="234" height="34">
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Key Features -->
+<section class="key-section">
+    <div class="container">
+        <h2 class="key-title">Key Features</h2>
+        <div class="key-wrapper">
+            <picture>
+                <source srcset="/bubble-game/assets/dog-NjRvSV_K.png 1x, /bubble-game/assets/dog@2x-0RwUfdML.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/bubble-game/assets/dog-mob-mXghL88X.png 1x, /bubble-game/assets/dog-mob@2x-CRCvoGFm.png 2x" media="(max-width: 1438px)" />
+                <img class="key-dog-img" src="/bubble-game/assets/dog-mob-mXghL88X.png" alt="Dog" loading="lazy" />
+            </picture>
+            <ul class="key-list">
+                <li class="key-item">
+                    <img class="key-img" src="/bubble-game/assets/one-ClNz_2YZ.png" alt="One" loading="lazy">
+                    <p class="key-text">Intuitive tap-to-merge gameplay</p>
+                </li>
+                <li class="key-item">
+                    <img class="key-img" src="/bubble-game/assets/two-DN6ziMC0.png" alt="two" loading="lazy">
+                    <p class="key-text key-text-two">Vibrant bubble animations</p>
+                </li>
+                <li class="key-item">
+                    <img class="key-img" src="/bubble-game/assets/three-CfSkVIz7.png" alt="three" loading="lazy">
+                    <p class="key-text key-text-three">Offline mode available</p>
+                </li>
+                <li class="key-item">
+                    <img class="key-img" src="/bubble-game/assets/four-CCETUWFv.png" alt="four" loading="lazy">
+                    <p class="key-text key-text-four">Great for kids and adults</p>
+                </li>
+                <li class="key-item">
+                    <img class="key-img" src="/bubble-game/assets/five-i1TqWdlG.png" alt="five" loading="lazy">
+                    <p class="key-text key-text-five">Boosters to increase score</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- FAQ -->
+<section class="faq-section">
+    <div class="container faq-container">
+        <h2 class="faq-title">FAQ</h2>
+        <ul class="faq-acc">
+            <li class="faq-acc-el faq-current">
+                <h3 class="faq-acc-el-title">
+                    <button type="button" class="faq-acc-el-trigger">
+                       
+        
+                        <span class="faq-acc-arr arr-down">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 18H27M18 27V9" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span> Is Connect Number - Bubble Game free to play?
+                    </button>
+                </h3>
+        
+                <p class="faq-acc-el-descr-frame">Yes! It’s completely free with optional in-app purchases.</p>
+            </li>
+            <li class="faq-acc-el faq-current">
+                <h3 class="faq-acc-el-title">
+                    <button type="button" class="faq-acc-el-trigger">
+            
+            
+                        <span class="faq-acc-arr arr-down">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 18H27M18 27V9" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span> Can I play offline?
+                    </button>
+                </h3>
+            
+                <p class="faq-acc-el-descr-frame">Absolutely! No internet required to enjoy the game.</p>
+            </li>
+            <li class="faq-acc-el faq-current">
+                <h3 class="faq-acc-el-title">
+                    <button type="button" class="faq-acc-el-trigger">
+            
+            
+                        <span class="faq-acc-arr arr-down">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 18H27M18 27V9" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span> Are there levels or endless play?
+                    </button>
+                </h3>
+            
+                <p class="faq-acc-el-descr-frame">The game offers endless play for ongoing fun and challenges.</p>
+            </li>
+            <li class="faq-acc-el faq-current">
+                <h3 class="faq-acc-el-title">
+                    <button type="button" class="faq-acc-el-trigger">
+            
+            
+                        <span class="faq-acc-arr arr-down">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 18H27M18 27V9" stroke="black" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span> Does it support Android tablets?
+                    </button>
+                </h3>
+            
+                <p class="faq-acc-el-descr-frame">Yes, the game is optimized for phones and tablets.</p>
+            </li>
+    </div>
+</section>
     </main>
 
     <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+  <div class="container footer-container">
+    <div class="footer-wrapper">
+      <ul class="footer-navigation">
+        <li class="footer-link">
+          <a class="footer-underline"  href="/privacy.html">Privacy Policy</a>
+        </li>
+        <li class="footer-link">
+          <a class="footer-underline"  href="/terms.html">Terms and Conditions</a>
+        </li>
+        <li class="footer-link">
+          <a class="footer-underline"  href="/cookies.html">Cookies Policy</a>
+        </li>
+      </ul>
+      <p class="footer-text">© 2025 blitzsparklematch.com. All rights reserved</p>
+    </div>
   </div>
 </footer>
-
 
   </body>
 </html>
